@@ -1,3 +1,14 @@
 body {
-    background: rgb(120, 14, 182);
+    /* margin:0; padding:0; */
+}
+
+section{
+    border: 1px solid red;
+}
+
+.layout-grid {
+    background: yellow;
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr 1fr;
+    height:100vh;
 }
