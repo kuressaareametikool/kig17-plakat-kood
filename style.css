@@ -1,14 +1,29 @@
 body {
     /* margin:0; padding:0; */
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
-section{
-    border: 1px solid red;
+/* h1, h2 {
+    font-family: 'Titan One', cursive; 
+} */
+
+section {
+    /* border: 1px solid red; */
 }
 
 .layout-grid {
-    background: yellow;
+    background: hsl(97, 53%, 32%) url(img/bg__circles.svg) no-repeat 50% 30%;
+    background-size: 100% 90%;
+    
+    height: 100vh;
+
     display: grid;
-    grid-template-rows: 1fr 4fr 1fr 1fr;
-    height:100vh;
+    /* grid-template-rows: 5vh 3fr 1fr 12vh; */
+    grid-template-rows: 7vh 4fr 1.5fr 1fr;
+
+    padding: 7vmin;
+}
+
+.layout-grid__title {
+    font-family: 'Titan One', cursive;
 }
