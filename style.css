@@ -1,15 +1,7 @@
 body {
-    /* margin:0; padding:0; */
     font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
-/* h1, h2 {
-    font-family: 'Titan One', cursive; 
-} */
-
-section {
-    /* border: 1px solid red; */
-}
 
 .layout-grid {
     background: hsl(97, 53%, 32%) url(img/bg__circles.svg) no-repeat 50% 30%;
@@ -26,4 +18,16 @@ section {
 
 .layout-grid__title {
     font-family: 'Titan One', cursive;
+}
+
+.layout-grid__title > h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 13vmin;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.layout-grid__date > div {
+    color: white;
 }
